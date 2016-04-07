@@ -1,0 +1,11 @@
+.navbar-default{
+    background-color: rgba(2, 2, 2, 0.8);
+}
+
+.navbar-collapse{
+    border-color: #000000;
+}
+#hideshow{
+    transition: width 2s;
+    visibility: hidden;
+}

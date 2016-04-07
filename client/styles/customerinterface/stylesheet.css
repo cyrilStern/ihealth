@@ -1,0 +1,15 @@
+.modal-footer {   border-top: 0px; }
+.container-customer{
+    top: auto;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.backgroungUSerInterface{
+    height: 100%;
+    background-image:url("/images/ihealthbackground2.png");
+    width: 100%;
+}
