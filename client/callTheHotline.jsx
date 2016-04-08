@@ -16,7 +16,6 @@ CallTheHotLine = React.createClass({
 
       },
     render() {
-        
 
       return (
                 <div className="card col-md-10">
