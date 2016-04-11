@@ -18,9 +18,9 @@ CallTheHotLine = React.createClass({
     render() {
 
       return (
-                <div className="card col-md-10">
-                    <img className="card-img-top" src="images/hosted-call-center.jpg" alt="Card image cap"/>
+                <div className="card col-md-10 card-call-center">
                     <div className="card-block">
+                        <img className="card-img-top" src="images/hosted-call-center.jpg" alt="Card image cap"/>
                         <h4 className="card-title">contacter directement notre service client</h4>
                         <p className="card-text">nos équipes sont à votre disposition</p>
                         <button className="btn btn-lg btn-success btnCall" onClick={this.handleSubmit}ref="callCustomerButtons"><span className="glyphicon glyphicon-earphone"></span> call</button>

@@ -61,7 +61,7 @@ TicketList = React.createClass({
                             <button className="btn btn-danger" onClick={this.handleRemoveTicket}>
                             remove
                             </button>
-                            <button className="btn btn-lg btn-success" ref="callCustomerButtons" onClick={this.handleCall}>
+                            <button className="btn  btn-success" ref="callCustomerButtons" onClick={this.handleCall}>
                             <span className="glyphicon glyphicon-earphone"></span>   call
                             </button>
                             { this.state.showResults ? <Progress/> : null }

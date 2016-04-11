@@ -3,13 +3,13 @@
     top: auto;
 }
 html{
+    background:url("/images/ihealthbackgound.png") no-repeat ;
+    background-size: cover;
     height: 100%;
-}
-body{
-    height: 100%;
-}
-.backgroungUSerInterface{
-    height: 100%;
-    background-image:url("/images/ihealthbackground2.png");
     width: 100%;
 }
+body{
+}
+.backgroungUSerInterface{
+
+  }
